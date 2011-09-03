@@ -12,7 +12,7 @@ object referenced by relational constraints (ForeignKey, ManyToMany, etc.)
 
 Installing
 ----------
-pip install -e "git+git://github.com/noah256/django-autocache.git#egg=autocache"
+    pip install -e "git+git://github.com/noah256/django-autocache.git#egg=autocache"
 
 Usage
 -----
@@ -37,7 +37,7 @@ autocache relies on for cache invalidation. This includes methods like
 and
 [`RelatedManager.clear`](https://docs.djangoproject.com/en/1.3/ref/models/relations/#django.db.models.fields.related.RelatedManager.clear)
 
-Find the complete documentation at autocache.readthedocs.org.
+Find the complete documentation at [django-autocache.readthedocs.org](http://django-autocache.readthedocs.org/).
 
 Running the tests
 -----------------
