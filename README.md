@@ -43,7 +43,7 @@ Running the tests
 -----------------
 Django-Autocache has a sample django application that tests the caching
 machinery. To run tests, start by cloning the autocache repository and
-entering the `tests` directory.
+entering the `test_project` directory.
 
 The tests run using memcached and pylibmc. You can change the backend by
 editing `autocache/tests/settings.py`. (TODO: get the test suite to run
@@ -52,7 +52,7 @@ multiple times with different backends)
 - Start two memcached servers (testing multicache)
     - `memcached -p 11211 -U 0`
     - `memcached -p 11212 -U 0`
-- Change into the `autocache/tests/` directory and run `manage.py test`
+- Change into the `autocache/test_project/` directory and run `manage.py test`
 
 Thanks
 ------

@@ -18,10 +18,10 @@ DATABASES = {
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = '))&_fn7otvb(o(t$1#dt+&0$drsyo%h+h-*7#5bo*1y5-zmlob'
 
-ROOT_URLCONF = 'tests.urls'
+ROOT_URLCONF = 'test_project.urls'
 
 INSTALLED_APPS = (
-    'tests.sample_app',
+    'test_project.sample_app',
 )
 
 
