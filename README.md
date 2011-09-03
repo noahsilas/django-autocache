@@ -54,3 +54,7 @@ multiple times with different backends)
     - `memcached -p 11212 -U 0`
 - Change into the `autocache/tests/` directory and run `manage.py test`
 
+Thanks
+------
+Big thanks to [Travis Fischer](https://github.com/travisfischer) for drafting
+a lot of documentation and tests!
